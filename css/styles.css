@@ -59,7 +59,20 @@ body {
 /* ================ BASIC ================ */
 
 /* ================ HEADER ================ */
-
+.container {
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
+}
+.page-header-nav {
+  display: flex;
+  gap: 76px;
+  align-items: center;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
 .page-header-logo {
   font-family: var(--logo-font);
   font-weight: 700;
@@ -72,13 +85,25 @@ body {
 .page-header-studio {
   color: #2e2f42;
 }
-
+.page-header-nav-list {
+  display: flex;
+  column-gap: 40px;
+}
 .page-header-nav-list-item-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
+  padding: 24px 0;
+}
+.header-address-box {
+  margin-left: auto;
+}
+.header-address-box-list {
+  display: flex;
+  gap: 40px;
 }
 .header-address-box-list-item-link {
   font-size: 16px;
