@@ -56,14 +56,18 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* ================ BASIC ================ */
-
-/* ================ HEADER ================ */
 .container {
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
 }
+/* ================ BASIC ================ */
+
+/* ================ HEADER ================ */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .page-header-nav {
   display: flex;
   gap: 76px;
