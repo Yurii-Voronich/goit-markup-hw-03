@@ -67,16 +67,14 @@ body {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
-
+.page-header .container {
+  display: flex;
+}
 .page-header-nav {
   display: flex;
-  gap: 76px;
   align-items: center;
 }
-.header-wrapper {
-  display: flex;
-  align-items: center;
-}
+
 .page-header-logo {
   font-family: var(--logo-font);
   font-weight: 700;
@@ -85,13 +83,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .page-header-studio {
   color: #2e2f42;
 }
 .page-header-nav-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .page-header-nav-list-item-link {
   font-weight: 500;
@@ -103,7 +102,9 @@ body {
   padding: 24px 0;
 }
 .header-address-box {
+  display: flex;
   margin-left: auto;
+  text-align: center;
 }
 .header-address-box-list {
   display: flex;
