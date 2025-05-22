@@ -253,7 +253,7 @@ body {
 
 .description-wrapper {
   padding: 32px 16px;
-  border: 1px solid #fcfcfc;
+  border: 1px solid #e7e9fc;
   border-top: none;
 }
 
@@ -262,13 +262,15 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 /* footer */
-.page-footer-section {
+.page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-text {
+  max-width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
@@ -282,6 +284,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: block;
+  margin-bottom: 16px;
 }
 .page-footer-studio {
   color: #f4f4fd;
