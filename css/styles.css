@@ -132,13 +132,19 @@ body {
 
 .hero-section {
   background-color: #2e2f42;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 188px 0;
 }
 .hero-section-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .hero-section-button {
   background-color: #4d5ae5;
@@ -147,7 +153,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  border: 0;
+  border: none;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
 }
 .hero-section-button:hover,
 .hero-section-button:focus {
